@@ -1,0 +1,34 @@
+body {
+    width: 100%;
+    background-color: grey;
+    overflow: hidden;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  input {
+    color: #000 ;
+  }
+  
+  .uneaten-title {
+    text-align: center;
+  }
+  
+  ul.uneaten li{
+    display: inline-block;
+    float: left;
+    list-style-type:none;
+    margin: 10px;
+  }
+  
+  #update {
+    text-align: center;
+  }
+  
+  #eaten {
+    text-align: center;
+  }
+  
+  .burgers-eaten {
+    overflow-y: scroll;
+  }
